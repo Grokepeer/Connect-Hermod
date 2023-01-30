@@ -13,7 +13,8 @@ npm i connect-hermod
 
 ```
 // Requiring package  
-const HermodStore = require("connect-hermod")
+const session = require("express-session")
+const HermodStore = require("connect-hermod")(session)
 
 // Session setup  
 app.use(session({
