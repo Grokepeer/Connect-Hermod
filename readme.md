@@ -5,14 +5,17 @@ This extension of Node.js application that use express-session allows storage an
 
 ### Install using:
 
+```
 npm i connect-hermod
+```
 
 ### How to set up:
 
-// Requiring package\n
+```
+// Requiring package  
 const HermodStore = require("connect-hermod")
 
-// Session setup\n
+// Session setup  
 app.use(session({
   secret: 'aye',
   resave: false,
@@ -20,5 +23,6 @@ app.use(session({
   saveUninitialized: true,
   cookie: { secure: true }
 }))
+```
 
 Where *hostname* has to be changed to the correct hostname available to the node.js instance to connect to the Hermod server which must be available on port 2088
