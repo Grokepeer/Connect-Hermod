@@ -1,0 +1,20 @@
+{
+    "name": "connect-hermod",
+    "description": "Hermod session store for Connect",
+    "version": "0.1.0",
+    "author": "Matteo Minardi <contact@ybdrinks.com>",
+    "license": "AGPL",
+    "main": "main.js",
+    "engines": {
+      "node": ">=12"
+    },
+    "scripts": {
+      "run": "--run"
+    },
+    "keywords": [
+      "connect",
+      "hermod",
+      "session",
+      "express"
+    ]
+  }
