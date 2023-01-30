@@ -9,10 +9,10 @@ npm i connect-hermod
 
 ### How to set up:
 
-// Requiring package
+// Requiring package\n
 const HermodStore = require("connect-hermod")
 
-// Session setup
+// Session setup\n
 app.use(session({
   secret: 'aye',
   resave: false,
