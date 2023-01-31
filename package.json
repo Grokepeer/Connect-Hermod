@@ -1,7 +1,7 @@
 {
   "name": "connect-hermod",
   "description": "Hermod session store for Express-session",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Matteo Minardi <contact@ybdrinks.com>",
   "license": "AGPL-3.0",
   "main": "./index.js",

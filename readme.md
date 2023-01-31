@@ -27,3 +27,9 @@ app.use(session({
 ```
 
 Where *hostname* has to be changed to the correct hostname available to the node.js instance to connect to the Hermod server which must be available on port 2088
+
+### Implemented functions:
+
+- *prototype*.get(sid, callback)
+- *prototype*.set(sid, session, callback)
+- *prototype*.destroy(sid, callback)
