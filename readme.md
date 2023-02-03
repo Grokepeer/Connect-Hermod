@@ -22,7 +22,7 @@ app.use(session({
   secret: 'aye',
   resave: false,
   store: new HermodStore({ server: *hostname* })
-  saveUninitialized: true,
+  saveUninitialized: false,
   cookie: { secure: true }
 }))
 ```
