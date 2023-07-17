@@ -21,13 +21,16 @@ const HermodStore = require("connect-hermod")(session)
 app.use(session({
   secret: 'aye',
   resave: false,
-  store: new HermodStore({ server: *hostname* })
+  store: new HermodStore({ server: *hostname*, deltoken: *token*, dbname: *dbname* })
   saveUninitialized: false,
   cookie: { secure: true }
 }))
 ```
 
-Where *hostname* has to be changed to the correct hostname available to the node.js instance to connect to the Hermod server which must be available on port 2088
+Where:
+- *hostname* has to be changed to the correct hostname available to the node.js instance to connect to the Hermod server which must be available on port 2088
+- *token* must be the same that was set in the host configuration files
+- *dbname is the name of the table that does or will hold all the sessions data in the Host
 
 ### Implemented functions
 
