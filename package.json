@@ -10,6 +10,7 @@
   },
   "scripts": {},
   "keywords": [
+    "connect-hermod",
     "connect",
     "hermod",
     "session",
